@@ -1,0 +1,39 @@
+GIT AND GIT HUB
+
+COMMANDS
+
+git log  -> GET ALL THE COMMITS WITH THEIR IDS
+git checkout commit-id  -> GO TO A PARTICULAR COMMIT
+git diff old-commit new-commit  -> CHECKS THE DIFFERNCE BETWEEN TWO COMMITS
+
+git clone link -> TO CLONE A PARTICULAR REPOSITORY WITH THE LINK
+
+git status -> TO GET THE STATUS OF FILE WHICH IS MODIFIED
+git add filename -> TO ADD FILE IN STAGING AREA
+git commit -> TO PUT FILE IN REPOSITORY
+git diff -> DIFFERENCE BTW STAGGING AREA AND WORKING DIRECTORY
+git show -> SHOWES THE DIFFERNCE IN A PARTICULAR COMMIT WITHOIT KNOWING IT PARENT
+
+git branch
+git branch branch_name
+git checkout branch_name
+git merge names_of_branch
+git log --graph name_of_branches
+git branch -d branch_name -> TO DELETE A BRANCH LABEL NOT IT'S COMMIT
+
+
+git remote -> TO CHECK ALL REMOTE
+git remote add link -> TO CREATE A REMOTE FOR THE LINK
+git push name_of_remote name_of_branch -> TO PUSH THE BRANCH IN GITHUB REPOSITORY
+git pull name_of_remote name_of_branch -> TO PULL THE BRANCH IN GITHUB REPOSITORY
+this equivalent fit fetch origin and then git merge master origin/master
+git push -u origin master --> u stands for update. Push the master branch in reomote named origin
+
+git checkout 
+git branch -f master
+
+git config --global core.editor notepad
+git merge a b —-> merge b to a
+git merge b a -—> merge a to b
+git merge x —> merge x to current root
+git config core.editor nano —> change default text editor for commit msg
